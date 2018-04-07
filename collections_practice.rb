@@ -39,11 +39,11 @@ def sum_array(array)
 end
 
 def add_s(array)
-  [1,2].each_with_index.collect do |element, index|
+  array.each_with_index.collect do |element, index|
     if index == 1
       word
     else
       word + "s"
       end
-    end 
+    end
 end
