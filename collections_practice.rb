@@ -18,3 +18,11 @@ end
 def reverse_array(array)
   array.reverse
 end
+
+def kesha_maker(array)
+  array_two = []
+  array.each do |string|
+    array_two << string[2,$]
+    end
+  array_twp
+end
