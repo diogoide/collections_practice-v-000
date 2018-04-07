@@ -40,11 +40,12 @@ end
 
 def add_s(array)
   array.each_with_index.collect do |word, index|
+    new_array = []
     if index == 1
-      word
+      new_array << word
     else
-      word + "s"
+      new_array << word + "s"
       end
     end
-    array
+    new+array
 end
