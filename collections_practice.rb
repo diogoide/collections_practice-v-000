@@ -24,5 +24,5 @@ def kesha_maker(array)
   array.each do |string|
     array_two << string[2,$]
     end
-  array_twp
+  array_two
 end
