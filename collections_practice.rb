@@ -17,7 +17,7 @@ end
 
 def reverse_array(array)
   reverse = []
-  i = -1
+  i = 0
   array.each do |reverse|
     reverse << array[i]
     i -= 1
