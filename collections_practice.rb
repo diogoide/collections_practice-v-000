@@ -38,9 +38,9 @@ def sum_array(array)
   end
 end
 
+new_array = []
 def add_s(array)
   array.each_with_index.collect do |word, index|
-    new_array = []
     if index == 1
       new_array << word
     else
