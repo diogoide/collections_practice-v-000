@@ -43,10 +43,10 @@ end
 def add_s(array)
   array.collect.each_with_index do |word, index|
     if index == 1
-      new_array << word
+       word
     else
-      new_array << word + "s"
+        word + "s"
       end
     end
-    new_array
+    narray
 end
