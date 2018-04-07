@@ -35,5 +35,15 @@ end
 def sum_array(array)
   array.inject(0) do |result, element|
     result + element
-  end 
+  end
+end
+
+def add_s(array)
+  [1,2].each_with_index.collect do |element, index|
+    if index == 1
+      word
+    else
+      word + "s"
+      end
+    end 
 end
