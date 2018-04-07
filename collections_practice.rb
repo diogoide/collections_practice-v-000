@@ -21,5 +21,6 @@ def reverse_array
   array.each do |reverse|
     reverse << array[i]
     i -= 1
-  end 
+  end
+  reverse
 end
