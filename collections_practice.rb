@@ -16,11 +16,5 @@ def swap_elements(array)
 end
 
 def reverse_array(array)
-  reverse = []
-  i = 0
-  array.each do |reverse|
-    reverse << array[i]
-    i -= 1
-  end
-  reverse
+  array.reverse
 end
